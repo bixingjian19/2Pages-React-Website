@@ -4,7 +4,7 @@ import HelloWorld from "./component/HelloWorld";
 function App() {
   return (
     <div>
-      <HelloWorld />
+      <HelloWorld name="Jarad" />
     </div>
   );
 }
