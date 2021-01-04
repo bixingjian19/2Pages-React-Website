@@ -1,10 +1,10 @@
 import "./App.css";
 import HelloWorld from "./component/HelloWorld";
-
+import CounterExample from "./component/CounterExample";
 function App() {
   return (
     <div>
-      <HelloWorld name="Jarad" />
+      <CounterExample />
     </div>
   );
 }
