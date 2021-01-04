@@ -1,6 +1,7 @@
-import "./App.css";
 import HelloWorld from "./component/HelloWorld";
 import Header from "./component/Header";
+import Footer from "./component/Footer";
+
 import CounterExample from "./component/CounterExample";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <HelloWorld name="Quentin" />
+      <Footer />
     </div>
   );
 }
