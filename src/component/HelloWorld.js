@@ -5,7 +5,7 @@ import React from "react";
 // }
 class HelloWorld extends React.Component {
   render() {
-    return <div>Hello {this.props.name}</div>;
+    return <h1>Hello {this.props.name}</h1>;
   }
 }
 

@@ -1,10 +1,13 @@
 import "./App.css";
 import HelloWorld from "./component/HelloWorld";
+import Header from "./component/Header";
 import CounterExample from "./component/CounterExample";
+
 function App() {
   return (
     <div>
-      <CounterExample />
+      <Header />
+      <HelloWorld name="Quentin" />
     </div>
   );
 }
